@@ -22,7 +22,7 @@ function adicionarAmigo(){
         var i;
       
        for (i=0;i<nomes.length;i++){
-       item=nomes[i];
+       item=nomes;
        exibirTexto(id='listaAmigos',text= item);
        
        ;
